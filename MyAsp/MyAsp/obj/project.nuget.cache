@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3HlJZApZGrx9TEJpRLHCHWq1ovOw7EJHy0pVokGbQVKwD2PyDpUhn6fxKtYp+OBhteU6Bx04bpwKXBLZBp9q3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LeoBalestra\\source\\repos\\MyAsp\\MyAsp\\MyAsp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LeoBalestra\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+  ],
+  "logs": []
+}
