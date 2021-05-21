@@ -47,6 +47,8 @@ namespace MyAsp
 
             app.UseAuthorization();
 
+            app.UseMiddleware<MeuMiddleware>();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
