@@ -3,7 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+//Registrou automaticamente
 import { NomeComponenteComponent } from './pasta/nome-componente/nome-componente.component';
+import { ServicoService } from './servico.service';
 
 @NgModule({
   declarations: [
@@ -12,9 +14,11 @@ import { NomeComponenteComponent } from './pasta/nome-componente/nome-componente
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule //Importando modulos do Angular
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    ServicoService //Importou lá em cima automaticamente
+  ],
+  bootstrap: [AppComponent] //Quem é o bootstrap AppComponent
 })
 export class AppModule { }
